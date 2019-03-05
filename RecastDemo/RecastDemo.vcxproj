@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1F5E2E21-3595-3472-A37C-01A5AED2DBF6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>RecastDemo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Debug</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RecastDemo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RecastDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RecastDemo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RecastDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RecastDemo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">RecastDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RecastDemo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">RecastDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Debug\DebugUtils.lib;..\Detour\Debug\Detour.lib;..\DetourCrowd\Debug\DetourCrowd.lib;..\DetourTileCache\Debug\DetourTileCache.lib;..\Recast\Debug\Recast.lib;Contrib\SDL\lib\x86\SDL2main.lib;Contrib\SDL\lib\x86\SDL2.lib;..\Detour\Debug\Detour.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/Debug/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/Debug/RecastDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\Release\DebugUtils.lib;..\Detour\Release\Detour.lib;..\DetourCrowd\Release\DetourCrowd.lib;..\DetourTileCache\Release\DetourTileCache.lib;..\Recast\Release\Recast.lib;Contrib\SDL\lib\x86\SDL2main.lib;Contrib\SDL\lib\x86\SDL2.lib;..\Detour\Release\Detour.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/Release/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/Release/RecastDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\MinSizeRel\DebugUtils.lib;..\Detour\MinSizeRel\Detour.lib;..\DetourCrowd\MinSizeRel\DetourCrowd.lib;..\DetourTileCache\MinSizeRel\DetourTileCache.lib;..\Recast\MinSizeRel\Recast.lib;Contrib\SDL\lib\x86\SDL2main.lib;Contrib\SDL\lib\x86\SDL2.lib;..\Detour\MinSizeRel\Detour.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/MinSizeRel/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/MinSizeRel/RecastDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\..\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Include;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\DebugUtils\RelWithDebInfo\DebugUtils.lib;..\Detour\RelWithDebInfo\Detour.lib;..\DetourCrowd\RelWithDebInfo\DetourCrowd.lib;..\DetourTileCache\RelWithDebInfo\DetourTileCache.lib;..\Recast\RelWithDebInfo\Recast.lib;Contrib\SDL\lib\x86\SDL2main.lib;Contrib\SDL\lib\x86\SDL2.lib;..\Detour\RelWithDebInfo\Detour.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/RelWithDebInfo/RecastDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/RelWithDebInfo/RecastDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindOpenGL.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\cmake\FindSDL2.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindOpenGL.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\cmake\FindSDL2.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindOpenGL.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\cmake\FindSDL2.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindOpenGL.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\FindPkgConfig.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\cmake\FindSDL2.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Contrib\fastlz\fastlz.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\ChunkyTriMesh.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\ConvexVolumeTool.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\CrowdTool.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Filelist.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\InputGeom.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\MeshLoaderObj.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\NavMeshPruneTool.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\NavMeshTesterTool.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\OffMeshConnectionTool.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\PerfTimer.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Sample.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\SampleInterfaces.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Sample_Debug.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Sample_SoloMesh.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Sample_TempObstacles.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\Sample_TileMesh.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\TestCase.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\ValueHistory.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\imgui.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\imguiRenderGL.cpp" />
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\Source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\ZERO_CHECK.vcxproj">
+      <Project>{34E68368-E9E3-3055-BD54-CECC430E0484}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\DebugUtils.vcxproj">
+      <Project>{01784E5F-AD72-3AA2-89C1-8A738499E6F7}</Project>
+      <Name>DebugUtils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Detour.vcxproj">
+      <Project>{91897B78-3A9B-37C9-9C3C-404BE1E0E42C}</Project>
+      <Name>Detour</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\DetourCrowd.vcxproj">
+      <Project>{E3214475-143C-31F0-9B37-0F6E1C794D0F}</Project>
+      <Name>DetourCrowd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\DetourTileCache.vcxproj">
+      <Project>{BE5736A9-1004-372B-8C78-6F543209AC9C}</Project>
+      <Name>DetourTileCache</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Recast.vcxproj">
+      <Project>{ACAC130A-E7CB-381B-935B-CAD6FD63E742}</Project>
+      <Name>Recast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

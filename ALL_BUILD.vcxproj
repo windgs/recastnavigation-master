@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF549B75-3B59-3511-B9A3-81B597C3A92E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCXXCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeRCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeSystem.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCXXCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeRCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeSystem.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCXXCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeRCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeSystem.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+F:\cmake-3.14.0-rc2-win64-x64\bin\cmake.exe -SF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master -BF:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master --check-stamp-file F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/CMakeLists.txt;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;F:\cmake-3.14.0-rc2-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeCXXCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeRCCompiler.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\3.14.0-rc2\CMakeSystem.cmake;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\ZERO_CHECK.vcxproj">
+      <Project>{34E68368-E9E3-3055-BD54-CECC430E0484}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DebugUtils\DebugUtils.vcxproj">
+      <Project>{01784E5F-AD72-3AA2-89C1-8A738499E6F7}</Project>
+      <Name>DebugUtils</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Detour\Detour.vcxproj">
+      <Project>{91897B78-3A9B-37C9-9C3C-404BE1E0E42C}</Project>
+      <Name>Detour</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\DetourCrowd.vcxproj">
+      <Project>{E3214475-143C-31F0-9B37-0F6E1C794D0F}</Project>
+      <Name>DetourCrowd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourTileCache\DetourTileCache.vcxproj">
+      <Project>{BE5736A9-1004-372B-8C78-6F543209AC9C}</Project>
+      <Name>DetourTileCache</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Recast.vcxproj">
+      <Project>{ACAC130A-E7CB-381B-935B-CAD6FD63E742}</Project>
+      <Name>Recast</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\RecastDemo\RecastDemo.vcxproj">
+      <Project>{1F5E2E21-3595-3472-A37C-01A5AED2DBF6}</Project>
+      <Name>RecastDemo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Tests\Tests.vcxproj">
+      <Project>{2F5A3AF4-18A2-3645-A629-EDEDEC0AF80C}</Project>
+      <Name>Tests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

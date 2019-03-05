@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourCrowd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourLocalBoundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourObstacleAvoidance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourPathCorridor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourPathQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\Source\DetourProximityGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\DetourCrowd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DCE05A08-D18C-3C94-97C4-A43ADA1367AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

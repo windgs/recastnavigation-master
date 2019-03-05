@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+F:/cmake-3.14.0-rc2-win64-x64/share/cmake-3.14/Modules/FindOpenGL.cmake
+F:/cmake-3.14.0-rc2-win64-x64/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+F:/cmake-3.14.0-rc2-win64-x64/share/cmake-3.14/Modules/FindPackageMessage.cmake
+F:/cmake-3.14.0-rc2-win64-x64/share/cmake-3.14/Modules/FindPkgConfig.cmake
+F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/CMakeLists.txt
+F:/code_modul/网格寻路算法/3D寻路算法/recastnavigation/recastnavigation-master/recastnavigation-master/RecastDemo/cmake/FindSDL2.cmake

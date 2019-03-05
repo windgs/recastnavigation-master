@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\Recast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastContour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastLayers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastMeshDetail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastRasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\Source\RecastRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\Recast\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DCE05A08-D18C-3C94-97C4-A43ADA1367AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

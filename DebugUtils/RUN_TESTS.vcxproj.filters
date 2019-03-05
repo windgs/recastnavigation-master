@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code_modul\网格寻路算法\3D寻路算法\recastnavigation\recastnavigation-master\recastnavigation-master\CMakeFiles\c787119e78dd9be65dee532fa0091ef2\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E856526-03E5-3986-86AB-EAFB07225311}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
